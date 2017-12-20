@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>hrudayaveena</title>
+ 
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<body>
+	<style>
+	html, body {
+            height: 100%;
+            margin: 0;
+        }
+      .header{
+            height: 300px;
+            width:600px;
+            top:50px;
+            left:400px;
+            position:absolute;
+           
+        }
+        .middle{
+            height: 600px;
+            width:900px;
+            top:200px;
+            left:350px;
+            position:absolute;
+                
+            
+
+           
+        }
+        .footer{
+            height: 800px;
+            width:800px;
+            top:900px;
+            left:400px;
+            position:absolute;
+          
+            
+
+           
+        }
+        /*.middle {
+            background-color: #eba5a3;
+            min-height: 100%;
+        }
+        /*.footer {
+            height: 100%;
+            background-color: #faf2cc;
+        }*/
+        nav {
+            position: fixed;
+            top: 10px;
+            left: 0px;
+        }
+        nav li {
+            display: inline-block;
+        }
+        </style>
+
+
+
+<div class="header" id="nav-a">
+<p style="align-content:center;">Indian immigrants have widely contributed to the workforce in the United States. Indian immigrants are primarily work in the fields of STEM (Science, Technology, Engineering and Mathematics).Their contribution is mainly seen in the fields of Management, Business, Science and Arts occupation.See figure below to understand the distribution.
+</p>
+</div>
+<div class="middle" id="nav-b">
+<div class='tableauPlaceholder' id='viz1513740966982' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorkforcefiledsofIndianImmigrantsintheUS&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WorkforcefiledsofIndianImmigrantsintheUS&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorkforcefiledsofIndianImmigrantsintheUS&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1513740966982');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+</div>
+<div class="footer" id="nav-c">
+<p style="align-content:center;">WHY DO INDIANS STAY BACK IN THE UNITED STATES INSTEAD OF GOING BACK TO INDIA?
+</p>
+<p style="align-content:center;">Indians stay back in the United States primarily because of the Quality of Life that they obtain in the states. Follow the link <a href= http://hdr.undp.org/en/countries/profiles/USA>to view the Human Development Index of the United States. Follow this link <a href="http://hdr.undp.org/en/countries/profiles/IND"> to view the Human Development Index of India. Compare
+</p>
+<img src="hdiIndia.png" width="800" height="300">
+<img src="hdiUSA.png" width="800" height="300">
+</div>
+
+
+<script>
+ $(function() {
+        $('a[href*="#nav-"]').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 500);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+    </body>
+    </head>
+    </html>

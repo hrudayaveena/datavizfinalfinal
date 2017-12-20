@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>hrudayaveena</title>
+ 
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<body>
+	<style>
+	html, body {
+            height: 100%;
+            margin: 0;
+        }
+      .header{
+            height: 300px;
+            width:600px;
+            top:50px;
+            left:400px;
+            position:absolute;
+           
+        }
+        .middle{
+            height: 800px;
+            width:900px;
+            top:200px;
+            left:350px;
+            position:absolute;
+                
+            
+
+           
+        }
+        
+        /*.middle {
+            background-color: #eba5a3;
+            min-height: 100%;
+        }
+        /*.footer {
+            height: 100%;
+            background-color: #faf2cc;
+        }*/
+        nav {
+            position: fixed;
+            top: 10px;
+            left: 0px;
+        }
+        nav li {
+            display: inline-block;
+        }
+        </style>
+
+
+
+<div class="header" id="nav-a">
+<p style="align-content:center;">But lately, with the new government, prosperity and Quality of Life has not been the case. There has been killings and has given ways to hate speech causing Indian immigrants to reconsider the American Dream.
+</p>
+</div>
+<div class="middle" id="nav-b">
+Follow the link <a href="http://www.cnn.com/2017/03/10/us/indian-immigrants-american-dream/index.html"> to understand the story
+<img src="indiankillings.png" width="500" height="300">
+
+</div>
+
+
+
+<script>
+ $(function() {
+        $('a[href*="#nav-"]').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 500);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+    </body>
+    </head>
+    </html>
